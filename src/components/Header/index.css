@@ -1,0 +1,76 @@
+/* Write your CSS here */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.website-logo {
+  width: 50px;
+}
+
+.menu-button {
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  list-style-type: none;
+  width: 90vw;
+  padding: 40px 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.close-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.link-redirection-container {
+  list-style-type: none;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-item {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 24px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}

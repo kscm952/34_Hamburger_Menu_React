@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.notFound-container {
+  width: 95vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found {
+  width: 350px;
+  height: 300px;
+}

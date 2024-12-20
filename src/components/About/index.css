@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.about-container {
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-mobile-img {
+  display: block;
+}
+
+.about-desktop-img {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .about-desktop-img {
+    display: block;
+    width: 95vw;
+  }
+  .about-mobile-img {
+    width: 95vw;
+    display: none;
+  }
+}
